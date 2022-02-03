@@ -1,0 +1,12 @@
+package main 
+/*package: Bu yüzden en üstte, bunun yürütülebilir bir tür olacağını söylemek için ortalama adlı bir paket tanımlayacaktır.
+
+paket.paketlerin kullanılabilir ve yürütülebilir olduğunu gösterir
+  main: .birçok faklı şeyin birarada çalışmasını sağlar
+  fmt: başka işlevvler paketler çağırır
+  import dahil eder*/
+import "fmt"
+
+func main() {
+    fmt.Println("Hello World")
+}
